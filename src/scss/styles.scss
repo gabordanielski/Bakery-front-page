@@ -33,7 +33,7 @@
       left: 0;
       top: 0;
       margin-top: 70px;
-      background: url("/assets/images/navi_bg.png");
+      background: url("../assets/images/navi_bg.png");
       z-index: 10000;
 
       ul {
@@ -67,7 +67,7 @@
 }
 
 .header-bg {
-  background-image: url("/assets/images/header_bg.png");
+  background-image: url("../assets/images/header_bg.png");
   background-position: center;
   background-size: cover;
   min-height: 100vh;
@@ -80,6 +80,7 @@
       font-size: 72px;
       font-family: $font-playfair;
       font-weight: bold;
+	  text-shadow: 1px 1px 5px #3a3a3a;
       letter-spacing: 3px;
       margin-top: 5vh;
     }
@@ -91,6 +92,7 @@
     p {
       font-size: 24px;
       font-family: $font-lato;
+	  text-shadow: 1px 1px 1px #3a3a3a;
     }
 
     button {
@@ -150,7 +152,7 @@
 .art-of-cakes {
   color: $color-dark-font;
   min-height: 100vh;
-  background-image: url("/assets/images/art_of_cakes_bg.png");
+  background-image: url("../assets/images/art_of_cakes_bg.png");
   background-position: center;
   background-size: cover;
 
@@ -237,7 +239,7 @@
 .tasty_pancakes {
   height: 100vh;
   min-height: 550px;
-  background-image: url("/assets/images/tasty_pancakes_bg.png");
+  background-image: url("../assets/images/tasty_pancakes_bg.png");
   background-position: left;
   background-size: cover;
 
@@ -245,7 +247,7 @@
     height: 50vh;
     min-height: 400px;
     background-color: white;
-    background-image: url("/assets/images/pancake.png");
+    background-image: url("../assets/images/pancake.png");
     background-position: left;
     background-size: cover;
     border-bottom-left-radius: 15%;
@@ -273,7 +275,7 @@
         right: -15%;
         top: -10%;
         background: white;
-        background-image: url("/assets/images/ready_bg.png");
+        background-image: url("../assets/images/ready_bg.png");
         background-position: left;
         -webkit-box-shadow: 0 10px 90px 7px rgba(204,204,204,1);
         -moz-box-shadow: 0 10px 90px 7px rgba(204,204,204,1);
@@ -483,7 +485,7 @@
       .cook {}
 
       .ready {
-        background-image: url("/assets/images/ready_bg.png");
+        background-image: url("../assets/images/ready_bg.png");
         background-position: left;
 
         .number-s {
@@ -687,7 +689,7 @@
         .cook {}
 
         .ready {
-          background-image: url("/assets/images/ready_bg.png");
+          background-image: url("../assets/images/ready_bg.png");
           background-position: left;
 
           .number-s {
